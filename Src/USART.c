@@ -2,8 +2,7 @@
  * USART.c
  *
  *  Created on: 5 Mar 2023
- *      Author: YUNUS
- */
+*/
 
 
 #include "stm32f401xe.h"
@@ -29,9 +28,4 @@ void UartReceivedData(USART_TypeDef *USARTx, uint8_t *RxBuffer, uint8_t Size){
 		}
 
 
-
-
 }
-
-
-
